@@ -29,6 +29,7 @@ model User {
   courses              Course[]
   courseOrders         CourseOrder[]
   media                Media[]
+  webStories           WebStory[]
 
   @@index([createdAt])
   @@index([email])
